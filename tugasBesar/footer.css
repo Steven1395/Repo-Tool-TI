@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+footer{
+    background-color: #7f5126;
+    margin: 0;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    justify-content: space-evenly;
+
+}
+
+.unorList{
+    list-style: none;
+    padding: 0;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 340px;
+}
