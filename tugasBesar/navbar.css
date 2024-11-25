@@ -1,0 +1,40 @@
+.navbar {
+    align-items: center;  
+    background-color: #7f5126;
+    margin: 0;
+}
+
+
+.logo {
+    display: inline;
+    height: 75px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border: 0;
+    overflow: clip;
+}
+
+.logo-name {
+    position: absolute;
+    width: 240px;
+    top: 9px;
+    color: white;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif, "Open Sans";
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-left: 2250px;
+}
+
+.search input {
+    padding: 5px;
+}
+
+.search button {
+    margin-left: 5px;
+}
