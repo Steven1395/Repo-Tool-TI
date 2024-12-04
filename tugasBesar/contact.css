@@ -1,0 +1,32 @@
+.location{
+    width: 100%;
+    margin: 0px;
+}
+
+.location iframe{
+    width: 100%;
+}
+
+.contact-form{
+    justify-items: center;
+    margin: 40px 0;
+}
+
+form{
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+form input{
+    width: 600px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+form textarea{
+    width: 600px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
