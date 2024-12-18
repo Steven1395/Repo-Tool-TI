@@ -1,0 +1,68 @@
+.footer {
+    width: 100%;
+    background-color: rgb(64,62,63);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 70px 50px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.info, .footercontact {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.info h2, .footercontact h2 {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid white;
+    width: fit-content;
+    margin: 0 auto 10px;
+    padding-bottom: 5px;
+}
+
+.para {
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.para1 {
+    padding-top: 10px;
+}
+
+.para, .para1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.para div, .para1 div {
+    flex: 1;
+}
+
+.info p, .footercontact p {
+    padding: 10px 0;
+}
+
+.sosmed {
+    width: 200px;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 10px;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.sosmed a {
+    color: white;
+    font-size: 40px;
+    transition: transform 0.3s ease;
+}
+
+.sosmed a:hover {
+    transform: scale(1.25);
+}
