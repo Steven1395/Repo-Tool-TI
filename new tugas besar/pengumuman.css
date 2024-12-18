@@ -1,0 +1,46 @@
+.pengumuman{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 2em 10em;
+}
+
+.pengumuman-container{
+    display: flex;
+    position: relative;
+    background: #fdbe00;
+    border-radius: 0.5rem;
+    inline-size: 50rem;
+    text-align: left;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.25rem;
+
+}
+
+.wrap{
+    color: white;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.bxs-right-arrow-circle{
+    color: white;
+   font-size: 2rem;
+}
+
+.content-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.judul{
+    margin-bottom: 4rem;
+}
